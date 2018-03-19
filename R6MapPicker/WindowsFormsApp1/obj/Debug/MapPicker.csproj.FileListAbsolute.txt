@@ -1,0 +1,10 @@
+C:\Users\Hans\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Hans\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Hans\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Hans\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\MapPicker.csprojResolveAssemblyReference.cache
+C:\Users\Hans\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Hans\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\MapPicker.csproj.GenerateResource.cache
+C:\Users\Hans\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\MapPicker.csproj.CoreCompileInputs.cache
+C:\Users\Hans\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Hans\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Hans\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\R6MapPicker.frmMain.resources

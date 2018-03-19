@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapPicker", "WindowsFormsApp1\MapPicker.csproj", "{3544445C-D5E9-43E9-9056-35123C2CBBCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3544445C-D5E9-43E9-9056-35123C2CBBCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3544445C-D5E9-43E9-9056-35123C2CBBCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3544445C-D5E9-43E9-9056-35123C2CBBCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3544445C-D5E9-43E9-9056-35123C2CBBCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00C179BD-2F43-4497-B7CE-2CC73F37E910}
+	EndGlobalSection
+EndGlobal
