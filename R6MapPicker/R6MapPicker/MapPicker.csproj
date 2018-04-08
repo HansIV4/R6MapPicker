@@ -81,6 +81,7 @@
   <ItemGroup>
     <Compile Include="frmPrincipale.cs">
       <SubType>Form</SubType>
+      <ExcludeFromStyleCop>False</ExcludeFromStyleCop>
     </Compile>
     <Compile Include="frmPrincipale.Designer.cs">
       <DependentUpon>frmPrincipale.cs</DependentUpon>

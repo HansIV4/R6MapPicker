@@ -8,3 +8,17 @@ C:\Users\Hans\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\MapPicker
 C:\Users\Hans\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\Hans\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 C:\Users\Hans\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\R6MapPicker.frmMain.resources
+C:\Users\Hans\Documents\R6MapPicker\R6MapPicker\R6mapPicker\bin\Debug\R6 Map Picker.exe.config
+C:\Users\Hans\Documents\R6MapPicker\R6MapPicker\R6mapPicker\bin\Debug\R6 Map Picker.exe.manifest
+C:\Users\Hans\Documents\R6MapPicker\R6MapPicker\R6mapPicker\bin\Debug\R6 Map Picker.application
+C:\Users\Hans\Documents\R6MapPicker\R6MapPicker\R6mapPicker\bin\Debug\R6 Map Picker.exe
+C:\Users\Hans\Documents\R6MapPicker\R6MapPicker\R6mapPicker\bin\Debug\R6 Map Picker.pdb
+C:\Users\Hans\Documents\R6MapPicker\R6MapPicker\R6mapPicker\obj\Debug\MapPicker.csprojResolveAssemblyReference.cache
+C:\Users\Hans\Documents\R6MapPicker\R6MapPicker\R6mapPicker\obj\Debug\R6MapPicker.FrmMain.resources
+C:\Users\Hans\Documents\R6MapPicker\R6MapPicker\R6mapPicker\obj\Debug\R6MapPicker.Properties.Resources.resources
+C:\Users\Hans\Documents\R6MapPicker\R6MapPicker\R6mapPicker\obj\Debug\MapPicker.csproj.GenerateResource.cache
+C:\Users\Hans\Documents\R6MapPicker\R6MapPicker\R6mapPicker\obj\Debug\MapPicker.csproj.CoreCompileInputs.cache
+C:\Users\Hans\Documents\R6MapPicker\R6MapPicker\R6mapPicker\obj\Debug\R6 Map Picker.exe.manifest
+C:\Users\Hans\Documents\R6MapPicker\R6MapPicker\R6mapPicker\obj\Debug\R6 Map Picker.application
+C:\Users\Hans\Documents\R6MapPicker\R6MapPicker\R6mapPicker\obj\Debug\R6 Map Picker.exe
+C:\Users\Hans\Documents\R6MapPicker\R6MapPicker\R6mapPicker\obj\Debug\R6 Map Picker.pdb

@@ -1,4 +1,12 @@
-﻿using System.Reflection;
+﻿//-----------------------------------------------------------------------
+// <copyright file="AssemblyInfo.cs" company = "HansIV4" >
+//     Copyright (c) HansIV4. All rights reserved.
+//      Name: HansIV4
+//      Goal: The AssemblyInfo behind an app that will randomly select one of the enabled elements in the UI
+//      Date: 01/04/2018
+// </copyright>
+//-----------------------------------------------------------------------
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 

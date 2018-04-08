@@ -1,164 +1,234 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿//-----------------------------------------------------------------------
+// <copyright file="frmPrincipale.cs" company = "HansIV4" >
+//     Copyright (c) HansIV4. All rights reserved.
+//      Name: HansIV4
+//      Goal: An app that will randomly select one of the enabled elements in the UI
+//      Date: 01/04/2018
+// </copyright>
+//-----------------------------------------------------------------------
 
 namespace R6MapPicker
 {
-    public partial class frmMain : Form
+    using System;
+    using System.Windows.Forms;
+
+    /// <summary>
+    /// The main form
+    /// </summary>
+    public partial class FrmMain : Form
     {
-        ProgramController controller = new ProgramController();
+        /// <summary>
+        /// The program controller manages all the logic behind the program
+        /// </summary>
+        private ProgramController controller = new ProgramController();
 
-        public frmMain()
+        /// <summary>
+        ///  Initializes a new instance of the <see cref="FrmMain" /> class.
+        /// </summary>
+        public FrmMain()
         {
-            InitializeComponent();
+            this.InitializeComponent();
         }
 
-        private void Button1_Click(object sender, EventArgs e)
+        /// <summary>
+        /// Enables all of the check boxes
+        /// </summary>
+        /// <param name="sender">the default sender</param>
+        /// <param name="e">the default EventArgs</param>
+        private void BrtnSelectionnerTous_Click(object sender, EventArgs e)
         {
-            chkBanque.Checked = true;
-            chkClubhouse.Checked = true;
-            chkOregon.Checked = true;
-            chkCafe.Checked = true;
-            chkConsulat.Checked = true;
-            chkChalet.Checked = true;
-            chkFrontiere.Checked = true;
-            chkLittoral.Checked = true;
-            chkGratteCiel.Checked = true;
+            this.chkBanque.Checked = true;
+            this.chkClubhouse.Checked = true;
+            this.chkOregon.Checked = true;
+            this.chkCafe.Checked = true;
+            this.chkConsulat.Checked = true;
+            this.chkChalet.Checked = true;
+            this.chkFrontiere.Checked = true;
+            this.chkLittoral.Checked = true;
+            this.chkGratteCiel.Checked = true;
         }
 
+        /// <summary>
+        /// disables all the check boxes
+        /// </summary>
+        /// <param name="sender">the default sender</param>
+        /// <param name="e">the default EventsArgs</param>
         private void BtnDeselectionnerTout_Click(object sender, EventArgs e)
         {
-            chkBanque.Checked = false;
-            chkClubhouse.Checked = false;
-            chkOregon.Checked = false;
-            chkCafe.Checked = false;
-            chkConsulat.Checked = false;
-            chkChalet.Checked = false;
-            chkFrontiere.Checked = false;
-            chkLittoral.Checked = false;
-            chkGratteCiel.Checked = false;
+            this.chkBanque.Checked = false;
+            this.chkClubhouse.Checked = false;
+            this.chkOregon.Checked = false;
+            this.chkCafe.Checked = false;
+            this.chkConsulat.Checked = false;
+            this.chkChalet.Checked = false;
+            this.chkFrontiere.Checked = false;
+            this.chkLittoral.Checked = false;
+            this.chkGratteCiel.Checked = false;
         }
 
-        private void chkBanque_CheckedChanged(object sender, EventArgs e)
+        /// <summary>
+        /// the method called when the checkbox is changed
+        /// </summary>
+        /// <param name="sender">the default sender</param>
+        /// <param name="e">the default arguments</param>
+        private void ChkBanque_CheckedChanged(object sender, EventArgs e)
         {
-            if (chkBanque.Checked)
+            if (this.chkBanque.Checked)
             {
-                controller.EnableMap(0);
+                this.controller.EnableMap(0);
             }
             else
             {
-                controller.DisableMap(0);
+                this.controller.DisableMap(0);
             }
-
         }
 
-        private void chkClubhouse_CheckedChanged(object sender, EventArgs e)
+        /// <summary>
+        /// the method called when the checkbox is changed
+        /// </summary>
+        /// <param name="sender">the default sender</param>
+        /// <param name="e">the default arguments</param>
+        private void ChkClubhouse_CheckedChanged(object sender, EventArgs e)
         {
-            if (chkClubhouse.Checked)
+            if (this.chkClubhouse.Checked)
             {
-                controller.EnableMap(1);
+                this.controller.EnableMap(1);
             }
             else
             {
-                controller.DisableMap(1);
+                this.controller.DisableMap(1);
             }
         }
 
-        private void chkOregon_CheckedChanged(object sender, EventArgs e)
+        /// <summary>
+        /// the method called when the checkbox is changed
+        /// </summary>
+        /// <param name="sender">the default sender</param>
+        /// <param name="e">the default arguments</param>
+        private void ChkOregon_CheckedChanged(object sender, EventArgs e)
         {
-            if (chkOregon.Checked)
+            if (this.chkOregon.Checked)
             {
-                controller.EnableMap(2);
+                this.controller.EnableMap(2);
             }
             else
             {
-                controller.DisableMap(2);
+                this.controller.DisableMap(2);
             }
         }
 
-        private void chkCafe_CheckedChanged(object sender, EventArgs e)
+        /// <summary>
+        /// the method called when the checkbox is changed
+        /// </summary>
+        /// <param name="sender">the default sender</param>
+        /// <param name="e">the default arguments</param>
+        private void ChkCafe_CheckedChanged(object sender, EventArgs e)
         {
-            if (chkCafe.Checked)
+            if (this.chkCafe.Checked)
             {
-                controller.EnableMap(3);
+                this.controller.EnableMap(3);
             }
             else
             {
-                controller.DisableMap(3);
+                this.controller.DisableMap(3);
             }
         }
 
-        private void chkConsulat_CheckedChanged(object sender, EventArgs e)
+        /// <summary>
+        /// the method called when the checkbox is changed
+        /// </summary>
+        /// <param name="sender">the default sender</param>
+        /// <param name="e">the default arguments</param>
+        private void ChkConsulat_CheckedChanged(object sender, EventArgs e)
         {
-            if (chkConsulat.Checked)
+            if (this.chkConsulat.Checked)
             {
-                controller.EnableMap(4);
+                this.controller.EnableMap(4);
             }
             else
             {
-                controller.DisableMap(4);
+                this.controller.DisableMap(4);
             }
         }
-
-        private void chkChalet_CheckedChanged(object sender, EventArgs e)
+     
+        /// <summary>
+        /// the method called when the checkbox is changed
+        /// </summary>
+        /// <param name="sender">the default sender</param>
+        /// <param name="e">the default arguments</param>
+        private void ChkChalet_CheckedChanged(object sender, EventArgs e)
         {
-            if (chkChalet.Checked)
+            if (this.chkChalet.Checked)
             {
-                controller.EnableMap(5);
+                this.controller.EnableMap(5);
             }
             else
             {
-                controller.DisableMap(5);
+                this.controller.DisableMap(5);
             }
         }
 
-        private void chkFrontiere_CheckedChanged(object sender, EventArgs e)
+        /// <summary>
+        /// the method called when the checkbox is changed
+        /// </summary>
+        /// <param name="sender">the default sender</param>
+        /// <param name="e">the default arguments</param>
+        private void ChkFrontiere_CheckedChanged(object sender, EventArgs e)
         {
-            if (chkFrontiere.Checked)
+            if (this.chkFrontiere.Checked)
             {
-                controller.EnableMap(6);
+                this.controller.EnableMap(6);
             }
             else
             {
-                controller.DisableMap(6);
+                this.controller.DisableMap(6);
             }
         }
 
-        private void chkLittoral_CheckedChanged(object sender, EventArgs e)
+        /// <summary>
+        /// the method called when the checkbox is changed
+        /// </summary>
+        /// <param name="sender">the default sender</param>
+        /// <param name="e">the default arguments</param>
+        private void ChkLittoral_CheckedChanged(object sender, EventArgs e)
         {
-            if (chkLittoral.Checked)
+            if (this.chkLittoral.Checked)
             {
-                controller.EnableMap(7);
+                this.controller.EnableMap(7);
             }
             else
             {
-                controller.DisableMap(7);
+                this.controller.DisableMap(7);
             }
         }
 
-        private void chkGratteCiel_CheckedChanged(object sender, EventArgs e)
+        /// <summary>
+        /// the method called when the checkbox is changed
+        /// </summary>
+        /// <param name="sender">the default sender</param>
+        /// <param name="e">the default arguments</param>
+        private void ChkGratteCiel_CheckedChanged(object sender, EventArgs e)
         {
-            if (chkGratteCiel.Checked)
+            if (this.chkGratteCiel.Checked)
             {
-                controller.EnableMap(8);
+               this.controller.EnableMap(8);
             }
             else
             {
-                controller.DisableMap(8);
+                this.controller.DisableMap(8);
             }
         }
 
-        private void btnRandom_Click(object sender, EventArgs e)
+        /// <summary>
+        /// The button calls the application controller to select a random element and return its label
+        /// </summary>
+        /// <param name="sender">default sender</param>
+        /// <param name="e">default args</param>
+        private void BtnRandom_Click(object sender, EventArgs e)
         {
-            if (controller.SelectRandomMap() != "-1")
+            if (this.controller.SelectRandomMap() != "-1")
             {
-                lblResultat.Text = controller.SelectRandomMap();
+               this.lblResultat.Text = this.controller.SelectRandomMap();
             }
             else
             {
