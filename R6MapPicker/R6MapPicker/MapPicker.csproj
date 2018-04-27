@@ -130,6 +130,8 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Images\chaletColored.png" />
+    <None Include="Images\chaletGrey.png" />
     <Content Include="rainbow_six__siege___icon_by_blagoicons-d9hlqg4.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

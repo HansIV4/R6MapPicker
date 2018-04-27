@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="R6 Map Picker.exe" size="416704">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="R6 Map Picker.exe" size="15250368">
       <assemblyIdentity name="R6 Map Picker" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>dpQ6UEv1IbPjSnj7iKL+A7sVvNZbtHDEeFgSEdW0Td8=</dsig:DigestValue>
+        <dsig:DigestValue>LTYEHE6JMi5wTpJSVyTiJ+fGJ9OMyYovQVPZTuPl77w=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

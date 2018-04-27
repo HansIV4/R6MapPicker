@@ -21,6 +21,8 @@ namespace R6MapPicker
         /// The program controller manages all the logic behind the program
         /// </summary>
         private ProgramController controller = new ProgramController();
+        bool chaletActive = true;
+
 
         /// <summary>
         ///  Initializes a new instance of the <see cref="FrmMain" /> class.
@@ -233,6 +235,22 @@ namespace R6MapPicker
             else
             {
                 MessageBox.Show("Tous les éléments sont désactivés. Veuillez en acviter au moins un.");
+            }
+        }
+
+        private void picChalet_Click(object sender, EventArgs e)
+        {
+
+            if (chaletActive)
+            {
+                picChalet.Image = R6MapPicker.Properties.Resources.chaletGrey;
+                chaletActive = false;
+            }
+            else
+            {
+                picChalet.Image = R6MapPicker.Properties.Resources.chaletColored;
+                chaletActive = true;
+
             }
         }
     }

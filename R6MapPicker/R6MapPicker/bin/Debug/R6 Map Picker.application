@@ -7,14 +7,14 @@
     <framework targetVersion="4.6.1" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="R6 Map Picker.exe.manifest" size="4150">
+    <dependentAssembly dependencyType="install" codebase="R6 Map Picker.exe.manifest" size="4152">
       <assemblyIdentity name="R6 Map Picker.exe" version="1.0.0.6" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>HWJUU61DXuV6AybPyrqL2Tl2nZdFi/aZkQwxThHnDic=</dsig:DigestValue>
+        <dsig:DigestValue>lk5hd1sdKOgNago3SxAJjg9e5qAjFqLN7wMRhEynA2M=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
