@@ -35,7 +35,7 @@ namespace R6MapPicker
             this.tabCartes[5] = new Map("Chalet", true);
             this.tabCartes[6] = new Map("Frontière", true);
             this.tabCartes[7] = new Map("Littoral", true);
-            this.tabCartes[8] = new Map("Gratte-ciel", true);
+            this.tabCartes[8] = new Map("Villa", true);
         }
         #endregion
 

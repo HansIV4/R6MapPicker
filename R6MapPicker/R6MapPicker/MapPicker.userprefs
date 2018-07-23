@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{3544445C-D5E9-43E9-9056-35123C2CBBCE}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="frmPrincipale.cs">
+    <Files>
+      <File FileName="ProgramController.cs" Line="38" Column="47" />
+      <File FileName="frmPrincipale.Designer.cs" Line="248" Column="1" />
+      <File FileName="frmPrincipale.cs" Line="229" Column="1" />
+      <File FileName="Map.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.MapPicker PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -46,7 +46,7 @@ namespace R6MapPicker
         /// <summary>
         /// UI checkbox element
         /// </summary>
-        private System.Windows.Forms.CheckBox chkGratteCiel;
+        private System.Windows.Forms.CheckBox chkVilla;
 
         /// <summary>
         /// UI checkbox element
@@ -112,7 +112,7 @@ namespace R6MapPicker
             this.chkLittoral = new System.Windows.Forms.CheckBox();
             this.chkConsulat = new System.Windows.Forms.CheckBox();
             this.chkClubhouse = new System.Windows.Forms.CheckBox();
-            this.chkGratteCiel = new System.Windows.Forms.CheckBox();
+            this.chkVilla = new System.Windows.Forms.CheckBox();
             this.chkChalet = new System.Windows.Forms.CheckBox();
             this.chkOregon = new System.Windows.Forms.CheckBox();
             this.btnSelectionnerTous = new System.Windows.Forms.Button();
@@ -199,18 +199,18 @@ namespace R6MapPicker
             this.chkClubhouse.UseVisualStyleBackColor = true;
             this.chkClubhouse.CheckedChanged += new System.EventHandler(this.ChkClubhouse_CheckedChanged);
             
-            // chkGratteCiel
-            this.chkGratteCiel.AutoSize = true;
-            this.chkGratteCiel.Checked = true;
-            this.chkGratteCiel.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkGratteCiel.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (byte)0);
-            this.chkGratteCiel.Location = new System.Drawing.Point(310, 98);
-            this.chkGratteCiel.Name = "chkGratteCiel";
-            this.chkGratteCiel.Size = new System.Drawing.Size(143, 33);
-            this.chkGratteCiel.TabIndex = 6;
-            this.chkGratteCiel.Text = "Gratte-Ciel";
-            this.chkGratteCiel.UseVisualStyleBackColor = true;
-            this.chkGratteCiel.CheckedChanged += new System.EventHandler(this.ChkGratteCiel_CheckedChanged);
+            // chkVilla
+            this.chkVilla.AutoSize = true;
+            this.chkVilla.Checked = true;
+            this.chkVilla.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkVilla.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, (byte)0);
+            this.chkVilla.Location = new System.Drawing.Point(310, 98);
+            this.chkVilla.Name = "chkVilla";
+            this.chkVilla.Size = new System.Drawing.Size(143, 33);
+            this.chkVilla.TabIndex = 6;
+            this.chkVilla.Text = "Villa";
+            this.chkVilla.UseVisualStyleBackColor = true;
+            this.chkVilla.CheckedChanged += new System.EventHandler(this.ChkVilla_CheckedChanged);
             
             // chkChalet
             this.chkChalet.AutoSize = true;
@@ -284,7 +284,7 @@ namespace R6MapPicker
             this.Controls.Add(this.btnSelectionnerTous);
             this.Controls.Add(this.chkOregon);
             this.Controls.Add(this.chkChalet);
-            this.Controls.Add(this.chkGratteCiel);
+            this.Controls.Add(this.chkVilla);
             this.Controls.Add(this.chkClubhouse);
             this.Controls.Add(this.chkConsulat);
             this.Controls.Add(this.chkLittoral);

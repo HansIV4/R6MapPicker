@@ -45,7 +45,7 @@ namespace R6MapPicker
             this.chkChalet.Checked = true;
             this.chkFrontiere.Checked = true;
             this.chkLittoral.Checked = true;
-            this.chkGratteCiel.Checked = true;
+            this.chkVilla.Checked = true;
         }
 
         /// <summary>
@@ -63,7 +63,7 @@ namespace R6MapPicker
             this.chkChalet.Checked = false;
             this.chkFrontiere.Checked = false;
             this.chkLittoral.Checked = false;
-            this.chkGratteCiel.Checked = false;
+            this.chkVilla.Checked = false;
         }
 
         /// <summary>
@@ -175,7 +175,7 @@ namespace R6MapPicker
         /// <param name="e">the default arguments</param>
         private void ChkFrontiere_CheckedChanged(object sender, EventArgs e)
         {
-            if (this.chkFrontiere.Checked)
+            if (this.chkVilla.Checked)
             {
                 this.controller.EnableMap(6);
             }
@@ -207,9 +207,9 @@ namespace R6MapPicker
         /// </summary>
         /// <param name="sender">the default sender</param>
         /// <param name="e">the default arguments</param>
-        private void ChkGratteCiel_CheckedChanged(object sender, EventArgs e)
+        private void ChkVilla_CheckedChanged(object sender, EventArgs e)
         {
-            if (this.chkGratteCiel.Checked)
+            if (this.chkVilla.Checked)
             {
                this.controller.EnableMap(8);
             }
@@ -232,7 +232,7 @@ namespace R6MapPicker
             }
             else
             {
-                MessageBox.Show("Tous les éléments sont désactivés. Veuillez en acviter au moins un.");
+                MessageBox.Show("Tous les éléments sont désactivés. Veuillez en acvtier au moins un.");
             }
         }
     }
